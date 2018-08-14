@@ -8,7 +8,7 @@ require __DIR__ . '/../vendor/autoload.php';
 use Workerman\Worker;
 use Workerman\GlobalTimer;
 
-$global_data_server = new Channel\Server('0.0.0.0', 3333);
+$global_channel_server = new Channel\Server('0.0.0.0', 3333);
 
 $worker = new Worker('text://0.0.0.0:2222');
 $worker->count = 4;
