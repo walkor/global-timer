@@ -13,7 +13,7 @@
  */
 namespace Workerman;
 
-use Workerman\Lib\Timer;
+use Workerman\Timer;
 
 /**
  * Class GlobalTimer
